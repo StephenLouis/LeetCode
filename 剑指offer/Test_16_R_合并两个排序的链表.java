@@ -6,30 +6,31 @@
 public class Test_16_R_合并两个排序的链表 {
     public class ListNode {
         int val;
-        ListNode next = null;
+        ListNode next;
 
-        ListNode(int val) {
-            this.val = val;
+        ListNode(int x) {
+            val = x;
         }
-
-        public ListNode Merge(ListNode list1, ListNode list2) {
-            if (list1 == null)
-                return list2;
-            else if (list2 == null)
-                return list1;
-
-                ListNode res = null;
-                if (list1.val < list2.val) {
-                    res = list1;
-                    res.next = Merge(list1.next, list2);
-                }else {
-                    res = list2;
-                    res.next = Merge(list1,list2.next);
-                }
-
-
-            return res;
-        }
-
     }
+
+    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
+        ListNode res = new ListNode(0);
+        ListNode tmp = res;
+        if (l1 == null) return l2;
+        if (l2 == null) return l1;
+        while (l1 != null && l2 != null){
+            if (l1.val < l2.val){
+                tmp.next = l1;
+                l1 = l1.next;
+            }else {
+                tmp.next = l2;
+                l2 = l2.next;
+            }
+            tmp = tmp.next;
+        }
+        tmp.next = l1 == null ? l2:l1;
+        return res.next;
+    }
+
+
 }

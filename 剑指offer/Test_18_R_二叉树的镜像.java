@@ -17,17 +17,12 @@ public class Test_18_R_二叉树的镜像 {
 
 
 
-    public void Mirror(TreeNode root) {
-        if (root == null){
-            return;
-        }
-
-        TreeNode temp = null;
-        temp = root.left;
-        root.left = root.right;
-        root.right = temp;
-
-        Mirror(root.left);
-        Mirror(root.right);
+    public TreeNode mirrorTree(TreeNode root) {
+        if(root == null) return null;
+        TreeNode tmp = root.left;
+        root.left = mirrorTree(root.right);
+        root.right = mirrorTree(tmp);
+        return root;
     }
+
 }
