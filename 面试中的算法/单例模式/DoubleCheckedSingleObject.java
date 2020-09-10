@@ -8,10 +8,7 @@ public class DoubleCheckedSingleObject {
 
     private static volatile DoubleCheckedSingleObject instance;
 
-    private DoubleCheckedSingleObject() {
-    }
-
-    ;
+    private DoubleCheckedSingleObject() {};
 
     public static DoubleCheckedSingleObject getInstance() {
         if (instance == null) {
