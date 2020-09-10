@@ -1,0 +1,5 @@
+
+Š
+java:S1319"oThe type of the "path" object should be an interface such as "List" rather than the implementation "ArrayList".(¤˜Şúÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(âùŒ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Û¼áüùÿÿÿÿ

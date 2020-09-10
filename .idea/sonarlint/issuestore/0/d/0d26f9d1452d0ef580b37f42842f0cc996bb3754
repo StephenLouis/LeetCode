@@ -1,0 +1,14 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ8èø¶ç¼.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(óŠÕÎÿÿÿÿÿ8á¯¨è¼.
+G
+java:S1481"*Remove this unused "numpy" local variable.(Î™±³8ûÜ’ç¼.
+]
+java:S1854";Remove this useless assignment to local variable "hashMap".(İ„ª–ûÿÿÿÿ8ÃÑç¼.
+]	java:S125""<This block of commented-out lines of code should be removed.(‹¥ìŸûÿÿÿÿ8ıÔ×ç¼.
+]	java:S1252"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ıÔ×ç¼.
+V
+java:S1854"9Remove this useless assignment to local variable "numpy".(Î™±³8´Œ’ç¼.
+N
+java:S1481",Remove this unused "hashMap" local variable.(İ„ª–ûÿÿÿÿ8ÃÑç¼.
+X	java:S1254"<This block of commented-out lines of code should be removed.(ˆæ8ıÔ×ç¼.

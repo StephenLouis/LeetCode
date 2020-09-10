@@ -1,0 +1,11 @@
+
+]
+java:S1854"@Remove this useless assignment to local variable "singleObject".(Ï™Õ¾8”³¤ç½.
+>
+java:S1116"Remove this empty statement.(Åñ­õşÿÿÿÿ8û‹ç½.
+t
+java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(ê¥Õñ8…¤•ç½.
+N
+java:S1481"1Remove this unused "singleObject" local variable.(Ï™Õ¾8”³¤ç½.
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ê¥Õñ8ş¬ ç½.
